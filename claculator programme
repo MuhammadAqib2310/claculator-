@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{  int i,j; 
+char choice;
+while(true)
+{
+    cout<<"enter first integer"<<endl;
+    cin>>i;
+    cout<<"enter second integer"<<endl;
+    cin>>j;
+    cout<<"enter character"<<endl;
+    cin>>choice;
+    if(choice=='+')
+    cout<< "sum" <<i+j<<endl;
+    else
+    if(choice=='-')
+    cin>>choice;
+    if(choice=='+')
+    cout<< "sum" <<i+j<<endl;
+    else
+    if(choice=='-')
+    cout<<i<<"subtract"<<endl<<i-j<<endl;
+    else
+    if(choice=='*')
+    cout<<i<<"multiply"<<endl<<i*j<<endl;
+    else
+    if(choice=='/')
+    cout<<i<<"division"<<endl<<i/j<<endl;
+    else
+    if(choice=='%')
+    cout<<i<<"modulus"<<endl<<i%j<<endl;
+    else
+    cout<<"invalid character"<<endl;
+    break;
+    
+}
